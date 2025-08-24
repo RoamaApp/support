@@ -1,105 +1,252 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PollyChatter Privacy Policy</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roama – Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for Roama – a social app for organizing and joining travel groups and itineraries." />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 16px;
-      padding: 0;
-      line-height: 1.6;
-      color: #333;
-      background-color: #ffffff;
+    :root {
+      --bg: #ffffff; --fg: #111827; --muted:#6b7280; --accent:#2563eb; --border:#e5e7eb;
     }
-    h1, h2, h3 {
-      color: #222;
-    }
-    h1 {
-      font-size: 24px;
-      margin-bottom: 12px;
-    }
-    h2 {
-      font-size: 20px;
-      margin-top: 20px;
-      margin-bottom: 8px;
-    }
-    p {
-      font-size: 16px;
-      margin-bottom: 12px;
-    }
-    ul {
-      margin-bottom: 12px;
-    }
-    li {
-      margin-bottom: 8px;
-    }
-    .footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #777;
-      text-align: center;
-    }
+    html, body { background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    body { margin: 0; padding: 0 0 4rem; line-height: 1.6; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+    h1,h2,h3 { line-height: 1.25; }
+    h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; }
+    h3 { font-size: 1.05rem; margin-top: 1.25rem; }
+    p, li { font-size: 0.98rem; }
+    .muted { color: var(--muted); }
+    .card { border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.25rem; background: #fff; }
+    a { color: var(--accent); text-decoration: underline; }
+    code { background:#f3f4f6; padding: 0.1rem 0.3rem; border-radius: 6px; }
+    ul { padding-left: 1.2rem; }
+    .toc li { margin: 0.25rem 0; }
+    .kicker { font-size: 0.9rem; color: var(--muted); margin-bottom: 1rem; }
+    .badge { display:inline-block; font-size: 0.75rem; padding: 0.15rem 0.5rem; border-radius:999px; border:1px solid var(--border); color: var(--muted); }
+    .grid-2 { display:grid; grid-template-columns: 1fr; gap: 1rem; }
+    @media (min-width: 860px){ .grid-2{ grid-template-columns: 1fr 1fr; } }
+    hr { border:0; border-top:1px solid var(--border); margin: 2rem 0; }
   </style>
 </head>
 <body>
+  <main class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="kicker">for <strong>Roama</strong> — a social app for organizing and joining travel buddies and itineraries.</p>
+      <p class="muted">Effective date: <strong>August 24, 2025</strong> · Version 1.0</p>
+      <p class="muted">This Privacy Policy explains how we collect, use, disclose, and protect information in connection with the Roama mobile application, website(s), and related services (collectively, the “Service”).</p>
+ 
+    </header>
 
-<h1>PollyChatter Privacy Policy</h1>
+    <nav class="card" aria-label="Table of contents">
+      <strong>Quick navigation</strong>
+      <ul class="toc">
+        <li><a href="#scope">1. Scope</a></li>
+        <li><a href="#collection">2. Information we collect</a></li>
+        <li><a href="#use">3. How we use information</a></li>
+        <li><a href="#sharing">4. How we share information</a></li>
+        <li><a href="#social">5. Social & community content</a></li>
+        <li><a href="#permissions">6. App permissions</a></li>
+        <li><a href="#cookies">7. Cookies & tracking</a></li>
+        <li><a href="#legal-bases">8. Legal bases (GDPR/UK GDPR)</a></li>
+        <li><a href="#retention">9. Data retention</a></li>
+        <li><a href="#security">10. Security</a></li>
+        <li><a href="#transfers">11. International transfers</a></li>
+        <li><a href="#your-rights">12. Your rights & choices</a></li>
+        <li><a href="#children">13. Children</a></li>
+        <li><a href="#changes">14. Changes to this policy</a></li>
+        <li><a href="#contact">15. Contact us</a></li>
+        <li><a href="#jurisdiction">16. Region-specific disclosures (EEA/UK, US-CA, BR)</a></li>
+      </ul>
+    </nav>
 
-<p>Effective Date: March 16, 2025</p>
+    <section id="scope">
+      <h2>1) Scope</h2>
+      <p>This Policy applies to the Service operated by us under the name “Roama”. Additional terms may apply for specific features, events, or promotions. If terms conflict, the feature-specific terms prevail for that feature.</p>
+    </section>
 
-<p>Welcome to PollyChatter! We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our app.</p>
+    <section id="collection">
+      <h2>2) Information we collect</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Information you provide</h3>
+          <ul>
+            <li><strong>Account data</strong>: display name, username/handle, password (hashed), email/phone, profile photo, gender/pronouns (optional), preferred language.</li>
+            <li><strong>Profile & travel preferences</strong>: home city, languages, travel interests, budget range, availability window, safety preferences.</li>
+            <li><strong>Content you post</strong>: trip posts, itineraries (dates, locations, activities), photos, comments, likes, ratings, and other UGC.</li>
+            <li><strong>Messages</strong>: direct messages and in-thread chat. We process these to deliver the Service and for safety moderation as described below.</li>
+            <li><strong>Calendar entries (optional)</strong>: if you sync or import events to build itineraries.</li>
+            <li><strong>Contact lists (optional)</strong>: if you choose to discover friends; we hash or otherwise process contacts as described in-app.</li>
+            <li><strong>Support & surveys</strong>: information you submit to our support channels or feedback forms.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Information we collect automatically</h3>
+          <ul>
+            <li><strong>Device & usage</strong>: device identifiers (e.g., IDFA/AAID subject to your settings), OS/version, app version, language, time zone, crash logs, performance data, feature usage, in-app actions.</li>
+            <li><strong>Approximate location</strong>: derived from IP or device settings to show relevant trips and safety features.</li>
+            <li><strong>Precise location (optional)</strong>: if you enable device location to suggest nearby trips or meeting points.</li>
+            <li><strong>Cookies/SDK data</strong>: pages viewed, referral/UTM, session data. See <a href="#cookies">Cookies & tracking</a>.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Sensitive information</h3>
+        <p>We do not require sensitive personal data. Please avoid sharing health, biometric, financial account numbers, or government IDs in your profile or posts. If you choose to share such data, you do so at your own discretion and it will be processed as user-generated content under this Policy.</p>
+      </div>
+    </section>
 
-<h2>1. Information We Collect</h2>
-<p>We collect the following types of information:</p>
-<ul>
-  <li><strong>Personal Information:</strong> When you register for an account, we may collect your email address, username, and other information you choose to provide.</li>
-  <li><strong>Usage Data:</strong> We collect anonymous usage data, including how you interact with PollyChatter, for improving our services.</li>
-  <li><strong>Device Information:</strong> We may collect device-specific data such as device model, operating system version, and unique identifiers.</li>
+    <section id="use">
+      <h2>3) How we use information</h2>
+      <ul>
+        <li>Provide, maintain, and improve the Service, including creating accounts, enabling posts and messaging, itinerary tools, and social discovery.</li>
+        <li>Suggest trips, groups, and people you may be interested in; customize feeds and search results.</li>
+        <li>Safety and integrity: detect spam, fraud, or harmful content; enforce our <a href="#">Community Guidelines</a> and Terms of Service.</li>
+        <li>Communications: send transactional messages (e.g., account, safety, itinerary updates) and—with your consent where required—marketing communications. You can opt out anytime.</li>
+        <li>Analytics: measure feature use, fix bugs, and develop new features.</li>
+        <li>Legal: comply with law, defend legal claims, and prevent illegal activities.</li>
+        <li>With your consent: for any additional purpose disclosed to you at collection.</li>
+      </ul>
+    </section>
+
+    <section id="sharing">
+      <h2>4) How we share information</h2>
+      <ul>
+        <li><strong>With other users</strong>: your display name, handle, profile, and public posts are visible according to your settings. Messages are visible to conversation participants. Trip posts and itineraries are visible per the audience you select.</li>
+        <li><strong>Service providers</strong>: hosting, analytics, customer support, safety moderation, communications (email/SMS/push), and payment processors (if applicable). They are bound by contractual obligations to protect your data and use it only per our instructions.</li>
+        <li><strong>Business transfers</strong>: in mergers, acquisitions, or asset sales. We will notify you of material changes.</li>
+        <li><strong>Legal & safety</strong>: to comply with valid legal process or to protect rights, property, users’ safety, or the public.</li>
+        <li><strong>With your direction or consent</strong>: e.g., when you use a third‑party integration.</li>
+      </ul>
+      <p class="muted"><span class="badge">Ad tech</span> We currently <strong>[do / do not]</strong> sell or share personal information for cross‑context behavioral advertising. If we do, you can opt out via <a href="#donotsell">Do Not Sell or Share My Personal Information</a> and in app settings.</p>
+    </section>
+
+    <section id="social">
+      <h2>5) Social & community content</h2>
+      <p>Roama enables you to publish trip posts and interact with others. Content you mark as public may be viewable by anyone, indexed by search engines, and shared by others. Please consider your privacy before posting.</p>
+      <ul>
+        <li>We may use automated systems and human review to moderate content and detect safety risks (e.g., scams, harassment, dangerous meetups).</li>
+        <li>We may remove content or restrict accounts that violate our policies.</li>
+        <li>You can report users or content in-app; urgent threats should be reported to local authorities.</li>
+      </ul>
+    </section>
+
+    <section id="permissions">
+      <h2>6) App permissions</h2>
+      <ul>
+        <li><strong>Location</strong> (approximate/precise, optional): show nearby trips and meeting spots.</li>
+        <li><strong>Photos/Camera</strong> (optional): upload trip photos or profile images; scanning QR codes.</li>
+        <li><strong>Contacts</strong> (optional): discover friends; we may upload hashed identifiers to find matches. You can revoke at any time.</li>
+        <li><strong>Calendar</strong> (optional): import/sync events to itineraries; we only read the calendars you select.</li>
+        <li><strong>Notifications</strong> (optional): trip requests, messages, reminders.</li>
+        <li><strong>Microphone</strong> (optional): if you use audio features (e.g., voice notes or calls), audio is processed to provide the feature.</li>
+      </ul>
+    </section>
+
+    <section id="cookies">
+      <h2>7) Cookies & tracking</h2>
+      <p>We and our partners use cookies, SDKs, and similar technologies for essential operations, analytics, and (if enabled) advertising. You can manage preferences in the app/web cookie banner and your device settings. For web, see our <a href="#">Cookie Notice</a>.</p>
+    </section>
+
+    <section id="legal-bases">
+      <h2>8) Legal bases (GDPR/UK GDPR)</h2>
+      <ul>
+        <li><strong>Contract</strong>: to provide the Service you request.</li>
+        <li><strong>Legitimate interests</strong>: to keep the Service safe and useful (e.g., moderating abuse, analytics, improving features). We balance these interests against your rights.</li>
+        <li><strong>Consent</strong>: for optional features (e.g., precise location, contacts sync, marketing, ad cookies). You may withdraw consent at any time.</li>
+        <li><strong>Legal obligation</strong>: to comply with applicable laws.</li>
+      </ul>
+    </section>
+
+    <section id="retention">
+      <h2>9) Data retention</h2>
+      <p>We retain personal data for as long as necessary to provide the Service and for legitimate business needs, including security, compliance, and dispute resolution. Typical examples:</p>
+      <ul>
+        <li>Account data: retained while your account is active; upon deletion, we generally delete or anonymize within <strong>[30–90 days]</strong>, subject to legal holds.</li>
+        <li>Messages: retained to operate the Service; you and your conversation partners may have their own copies.</li>
+        <li>Logs & analytics: typically <strong>[12–24 months]</strong> in aggregated form.</li>
+      </ul>
+    </section>
+
+    <section id="security">
+      <h2>10) Security</h2>
+      <p>We implement administrative, technical, and physical safeguards appropriate to the risk, including encryption in transit, access controls, least‑privilege, and routine monitoring. No method of transmission or storage is 100% secure.</p>
+      <p>If we become aware of a data incident affecting you, we will notify you and regulators as required by law.</p>
+    </section>
+
+    <section id="transfers">
+      <h2>11) International transfers</h2>
+      <p>Your information may be processed in countries other than your own. Where required, we use appropriate safeguards, such as the EU Standard Contractual Clauses and UK International Data Transfer Addendum. Copies of relevant safeguards are available upon request where legally permitted.</p>
+    </section>
+
+    <section id="your-rights">
+      <h2>12) Your rights & choices</h2>
+      <h3>Account & preferences</h3>
+      <ul>
+        <li>Update profile and settings in the app.</li>
+        <li>Control visibility of posts, location, and discoverability.</li>
+        <li>Opt out of marketing by using the unsubscribe link or in-app settings.</li>
+      </ul>
+      <h3>Data subject rights</h3>
+      <p>Depending on your location, you may have rights to access, correct, delete, restrict or object to processing, portability, and to withdraw consent. Submit requests via <a href="mailto:[services_roama@gmail.com]">[services_roama@gmail.com]</a> or in-app (<em>Settings → Privacy → Data Request</em>).</p>
+      <p>If we cannot verify your request, we may ask for additional information. You may also lodge a complaint with your local data protection authority.</p>
+    </section>
+
+    <section id="children">
+      <h2>13) Children</h2>
+      <p>The Service is not directed to children under <strong>13</strong> (or older in some regions, e.g., <strong>16</strong> in the EEA/UK for certain processing). We do not knowingly collect personal data from children. If you believe a child has provided personal data, contact us to request deletion.</p>
+    </section>
+
+    <section id="changes">
+      <h2>14) Changes to this policy</h2>
+      <p>We may update this Policy from time to time. If changes are material, we will provide notice (e.g., in-app or by email) and indicate a new effective date. Your continued use of the Service after the effective date constitutes acceptance.</p>
+    </section>
+
+    <section id="contact">
+      <h2>15) Contact us</h2>
+      <p>Email: <a href="mailto:[services_roama@gmail.com]">[services_roama@gmail.com]</a></p>
+
+    </section>
+
+    <section id="jurisdiction">
+      <h2>16) Region‑specific disclosures</h2>
+      <h3>EEA/UK</h3>
+     <ul>
+  <li><strong>Controller</strong>: Roama App.</li>
+  <li><strong>EU/UK Representative</strong>: Not applicable (we have not appointed a representative in the EU/UK at this time).</li>
+  <li><strong>Complaints</strong>: You can lodge a complaint with your local data protection authority (see <a href="https://edpb.europa.eu">EDPB</a> or the UK ICO).</li>
+  <li><strong>Automated decision-making</strong>: We do not engage in solely automated decisions producing legal or similarly significant effects.</li>
 </ul>
+      <h3>California (CCPA/CPRA)</h3>
+      <p>We disclose the following categories of personal information (as defined by the CCPA) for business purposes: identifiers, commercial information (e.g., in‑app purchases), internet/network activity, geolocation, and inferences. We do not use or disclose sensitive personal information for purposes that require a right to limit under the CCPA.</p>
+      <ul>
+        <li><strong>Right to know/access</strong>, <strong>delete</strong>, <strong>correct</strong>, <strong>opt‑out of sale/share</strong>, and <strong>non‑discrimination</strong>.</li>
+        <li>To exercise: use in‑app settings or email <a href="mailto:[services_roama@gmail.com]">[services_roama@gmail.com]</a>. For opt‑outs, see <a id="donotsell" href="#">Do Not Sell or Share My Personal Information</a>.</li>
+      </ul>
+      <h3>Brazil (LGPD)</h3>
+      <p>Legal bases include consent, contract, legitimate interests, and legal obligation. You may contact our DPO (if appointed) and the ANPD regarding concerns.</p>
+    </section>
 
-<h2>2. How We Use Your Information</h2>
-<p>Your information is used to:</p>
-<ul>
-  <li>Provide and maintain PollyChatter services</li>
-  <li>Improve app performance and user experience</li>
-  <li>Communicate updates, promotions, and service-related information (optional)</li>
-  <li>Ensure security and prevent fraud</li>
-</ul>
+    <hr />
 
-<h2>3. Data Sharing and Disclosure</h2>
-<p>We do not sell or rent your personal information. We may share information with third parties in these cases:</p>
-<ul>
-  <li>With service providers that assist in delivering PollyChatter (e.g., cloud storage, analytics)</li>
-  <li>If required by law or legal processes</li>
-  <li>To protect the rights and safety of PollyChatter and its users</li>
-</ul>
+    <section id="management">
+      <h2>Self‑service privacy controls</h2>
+      <ul>
+        <li><strong>Download your data</strong>: Settings → Privacy → Export Data.</li>
+        <li><strong>Delete account</strong>: Settings → Account → Delete Account. We will deactivate immediately and permanently delete or anonymize within <strong>[30–90 days]</strong>, subject to legal holds.</li>
+        <li><strong>Ad choices</strong>: reset advertising ID on your device; adjust system‑level tracking preferences (iOS/Android).</li>
+      </ul>
+    </section>
 
-<h2>4. Data Security</h2>
-<p>We implement reasonable security measures to protect your personal data. However, no method of transmission over the Internet or electronic storage is 100% secure.</p>
-
-<h2>5. Your Rights</h2>
-<p>You have the right to:</p>
-<ul>
-  <li>Access, update, or delete your personal information</li>
-  <li>Withdraw consent for data processing</li>
-  <li>Contact us with any privacy-related questions or concerns</li>
-</ul>
-
-<h2>6. Children’s Privacy</h2>
-<p>PollyChatter does not knowingly collect personal information from children under 13 years of age. If we discover such data has been collected, we will delete it promptly.</p>
-
-<h2>7. Changes to This Policy</h2>
-<p>We may update this Privacy Policy periodically. Any changes will be posted on this page, and we encourage you to review it regularly.</p>
-
-<h2>8. Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, please contact us at:</p>
-<p><strong>Email:</strong> support@pollychatter.com</p>
-
-<div class="footer">
-  &copy; 2025 PollyChatter. All Rights Reserved.
-</div>
-
+    <footer class="muted" style="margin-top:2rem">
+      <p>© <span id="year">2025</span> <span class="muted">Roama</span>. All rights reserved.</p>
+      <p class="muted">This Policy is provided for informational purposes and does not constitute legal advice. Consider consulting counsel to adapt it to your specific operations.</p>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </main>
 </body>
 </html>
